@@ -1,4 +1,3 @@
-apt update && apt upgrade -y
 pkg install tty-clock
 mv fire time-s. time-24 time. time-s hacker /data/data/com.termux/files/usr/bin/
 chmod +x /data/data/com.termux/files/usr/bin/fire
