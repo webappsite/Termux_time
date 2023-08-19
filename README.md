@@ -1,6 +1,7 @@
 ### [TERMUX] Installation
 
- - ```git clone https://github.com/webappsite/Termux_time.git```
+ -```apt update && apt upgrade -y```
+ ```git clone https://github.com/webappsite/Termux_time.git```
  - ```cd Termux_time```
  - ```bash install.sh```
 
@@ -18,8 +19,7 @@
 
 ##### Usage
 
-###[ tty-clock ]
-[-C [0-7]] [-f format] [-d delay] [-a nsdelay] [-T tty]
+###[ pkg install tty-clock ]
 ```
     -s            Show seconds
     -S            Screensaver mode
