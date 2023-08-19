@@ -2,10 +2,10 @@
 
 
 ```
-pkg update && pkg upgrade -y
+apt update && apt upgrade -y
 ```
 ```
-pkg install git
+apt install git
 ```
 ```
 git clone https://github.com/webappsite/Termux_time.git
@@ -30,7 +30,7 @@ bash install.sh
 
 ##### Usage
 
-###[ `pkg install tty-clock` ]
+###[ `apt install tty-clock` ]
 [-C [0-7]] [-f format] [-d delay] [-a nsdelay] [-T tty]
 ```
     -s            Show seconds
