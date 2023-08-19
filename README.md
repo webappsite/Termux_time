@@ -1,6 +1,6 @@
 ### [TERMUX] Installation
 
- -```apt update && apt upgrade -y```
+- ```apt update && apt upgrade -y```
  - ```git clone https://github.com/webappsite/Termux_time.git```
  - ```cd Termux_time```
  - ```bash install.sh```
