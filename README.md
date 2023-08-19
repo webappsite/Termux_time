@@ -1,9 +1,21 @@
 ### [TERMUX] Installation
 
-- ```apt update && apt upgrade -y```
- - ```git clone https://github.com/webappsite/Termux_time.git```
- - ```cd Termux_time```
- - ```bash install.sh```
+
+```
+pkg update && pkg upgrade -y
+```
+```
+pkg install git
+```
+```
+git clone https://github.com/webappsite/Termux_time.git
+```
+```
+cd Termux_time
+```
+```
+bash install.sh
+```
 
 
 ### [Termux] Help Commend
@@ -18,8 +30,8 @@
 
 ##### Usage
 
-###[ pkg install tty-clock ]
-
+###[ `pkg install tty-clock` ]
+[-C [0-7]] [-f format] [-d delay] [-a nsdelay] [-T tty]
 ```
     -s            Show seconds
     -S            Screensaver mode
